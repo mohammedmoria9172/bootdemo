@@ -1,0 +1,177 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #0a113d;
+}
+
+.ct-color {
+    color: #27db9b;
+}
+
+.ct-bt-color {
+    background: #27db9b;
+    color: #fff;
+}
+
+.ft-lg {
+    font-size: 3.5em;
+}
+
+.ft-md {
+    font-size: 2.3em;
+}
+
+.sets p {
+    color: #525252;
+}
+
+.ft-p-clr {
+    font-size: 1.2em;
+}
+
+.ft-md-p {
+    font-size: 1.1em;
+}
+
+.bn-hd {
+    height: 100vh;
+    min-height: 750px;
+}
+
+.logo {
+    width: 185px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header-bot {
+    padding-top: 12px;
+    height: 72px;
+}
+
+.banner-height {
+    height: calc(100vh - 72px);
+}
+
+.bn-img img {
+    width: 100%;
+}
+
+.bn-img {
+    width: 750px;
+}
+
+.bt-link:hover {
+    background: #1fca8d;
+    transition: 0.4s ease-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bt-link {
+    padding: 14px 34px;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: 0.4s ease-in;
+}
+
+.bs-bt-link {
+    box-shadow: 0px 0px 13px 0px #27db9b;
+}
+
+.ct-bt-link:hover {
+    background: #eafff8;
+    color: #1fca8d;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 0.95em;
+    color: #0a113d;
+}
+
+.nav-link:hover {
+    color: #1fca8d;
+}
+
+.dropdown-item {
+    color: #0a113d;
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #fff;
+    color: #0a113d;
+}
+
+.set-para h2 {
+    font-weight: 600;
+}
+
+.set-img img {
+    width: 100%;
+}
+
+.set-img {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.sets {
+    margin-top: 170px;
+}
+
+.sets.our-serverices {
+    background: #f7f7f7;
+    padding: 75px 0px;
+}
+
+.os-set h4 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.os-set p {
+    color: #657290;
+}
+
+.footer {
+    background: #131421;
+    padding: 75px 0px;
+}
+
+.footer-nav ul li {
+    color: #d4d4d4;
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.footer-nav ul li a {
+    color: #d4d4d4;
+}
+
+.footer-nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 945px) {
+    .bn-img {
+        width: 500px;
+        margin: 30px auto 0px;
+    }
+    .set-img {
+        width: 390px;
+    }
+    .ft-md {
+        font-size: 2em;
+    }
+    .ft-md-p {
+        font-size: 1em;
+    }
+    .ft-lg {
+        font-size: 3.2em;
+    }
+}
